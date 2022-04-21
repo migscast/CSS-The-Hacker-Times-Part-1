@@ -6,12 +6,12 @@ body {
     font-family: Source Sans Pro;
 }
 
-h1 {
+h1, h3 {
     font-family:Abril Fatface;
     text-align: center;
 }
 
-li {
+.navigation {
     display: inline-block;
     margin: 5px 4.5em;
 }
@@ -33,5 +33,26 @@ p{
 
 section {
     display: inline-block;
-    margin: 10px;
+    margin: 0 60px;
+}
+.author {
+    color: red;
+}
+
+hr,
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: block;
+    background-color: #eee;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer {
+    margin: 2px;
 }
